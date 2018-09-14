@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2CB34A713F5DFC896D3129 /* libPods-ToiletsNearMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD0DC8806E6038535F33A6E /* libPods-ToiletsNearMe.a */; };
 		E00C6D5C214B4267001329B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C6D5B214B4267001329B1 /* AppDelegate.m */; };
 		E00C6D5F214B4267001329B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C6D5E214B4267001329B1 /* ViewController.m */; };
 		E00C6D62214B4267001329B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00C6D60214B4267001329B1 /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C4164171670FD7A89FE287A /* Pods-ToiletsNearMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToiletsNearMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToiletsNearMe/Pods-ToiletsNearMe.release.xcconfig"; sourceTree = "<group>"; };
+		CCD0DC8806E6038535F33A6E /* libPods-ToiletsNearMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ToiletsNearMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00C6D57214B4267001329B1 /* ToiletsNearMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToiletsNearMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00C6D5A214B4267001329B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E00C6D5B214B4267001329B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		E00C6D93214B42B4001329B1 /* CVMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVMapVC.h; sourceTree = "<group>"; };
 		E00C6D94214B42B4001329B1 /* CVMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVMapVC.m; sourceTree = "<group>"; };
 		E00C6D97214B42BD001329B1 /* pcher.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pcher.pch; sourceTree = "<group>"; };
+		EC8394CF04CA2132D95AD08C /* Pods-ToiletsNearMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToiletsNearMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToiletsNearMe/Pods-ToiletsNearMe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2CB34A713F5DFC896D3129 /* libPods-ToiletsNearMe.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0403FA9B48A3FE6636ACAC49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0DC8806E6038535F33A6E /* libPods-ToiletsNearMe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CB7485EB467F9F9987009CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC8394CF04CA2132D95AD08C /* Pods-ToiletsNearMe.debug.xcconfig */,
+				2C4164171670FD7A89FE287A /* Pods-ToiletsNearMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E00C6D4E214B4266001329B1 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +114,8 @@
 				E00C6D72214B4268001329B1 /* ToiletsNearMeTests */,
 				E00C6D7D214B4268001329B1 /* ToiletsNearMeUITests */,
 				E00C6D58214B4267001329B1 /* Products */,
+				4CB7485EB467F9F9987009CC /* Pods */,
+				0403FA9B48A3FE6636ACAC49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E00C6D83214B4268001329B1 /* Build configuration list for PBXNativeTarget "ToiletsNearMe" */;
 			buildPhases = (
+				EFD52D40939F1A6638083AEC /* [CP] Check Pods Manifest.lock */,
 				E00C6D53214B4267001329B1 /* Sources */,
 				E00C6D54214B4267001329B1 /* Frameworks */,
 				E00C6D55214B4267001329B1 /* Resources */,
+				F3B97AC26A2AAE6562144EA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -308,6 +334,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EFD52D40939F1A6638083AEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToiletsNearMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3B97AC26A2AAE6562144EA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ToiletsNearMe/Pods-ToiletsNearMe-resources.sh",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/Required/ShareSDK.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/Optional/ShareSDKUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDKUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToiletsNearMe/Pods-ToiletsNearMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E00C6D53214B4267001329B1 /* Sources */ = {
@@ -485,6 +554,7 @@
 		};
 		E00C6D84214B4268001329B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8394CF04CA2132D95AD08C /* Pods-ToiletsNearMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +574,7 @@
 		};
 		E00C6D85214B4268001329B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C4164171670FD7A89FE287A /* Pods-ToiletsNearMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

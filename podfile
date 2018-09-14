@@ -1,0 +1,31 @@
+platform:ios,'9.0'
+target 'ToiletsNearMe' do
+
+  #pod 'BaiduMapKit', '~> 4.1.1'
+  
+  #pod 'AMapNavi', '~> 6.2.0'  
+  
+  #pod 'AMapSearch', '~> 6.1.1'  
+
+  pod 'YYKit', '~> 1.0.9'
+ 
+  pod 'BmobSDK', '~> 2.3.1'
+
+  pod 'Masonry', '~> 1.1.0'
+
+  pod 'HYBMasonryAutoCellHeight_SS', '~> 2.0.2'
+
+  ##社会化分享功能 导入mob的sdk及相关平台的包
+   # 主模块(必须)
+   pod 'mob_sharesdk'
+ 
+   # UI模块(非必须，需要用到ShareSDK提供的分享菜单栏和分享编辑页面需要以下1行)
+   pod 'mob_sharesdk/ShareSDKUI'
+ 
+   # 平台SDK模块(对照一下平台，需要的加上。如果只需要QQ、微信、新浪微博，只需要以下3行)
+   pod 'mob_sharesdk/ShareSDKPlatforms/QQ'
+   pod 'mob_sharesdk/ShareSDKPlatforms/SinaWeibo'
+   pod 'mob_sharesdk/ShareSDKPlatforms/WeChat'   
+   #pod 'mob_sharesdk/ShareSDKPlatforms/WeChatFull' //（微信sdk带支付的命令，和上面不带支付的不能共存，只能选择一个）
+ end
+
