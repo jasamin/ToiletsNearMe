@@ -1,0 +1,15 @@
+//
+//  pcher.pch
+//  ToiletNearMe
+//
+//  Created by Hanrun on 2018/9/13.
+//  Copyright © 2018年 Carvin. All rights reserved.
+//
+
+#ifndef pcher_pch
+#define pcher_pch
+
+//第三方key
+#define Mapkey @"4f377f2dfcc89c92c13b1d0a22ea4c5e"
+
+#endif /* pcher_pch */

@@ -15,6 +15,8 @@
 		E00C6D6A214B4268001329B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C6D69214B4268001329B1 /* main.m */; };
 		E00C6D74214B4268001329B1 /* ToiletsNearMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C6D73214B4268001329B1 /* ToiletsNearMeTests.m */; };
 		E00C6D7F214B4268001329B1 /* ToiletsNearMeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C6D7E214B4268001329B1 /* ToiletsNearMeUITests.m */; };
+		E00C6D8F214B42AA001329B1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C6D8E214B42AA001329B1 /* BaseViewController.m */; };
+		E00C6D96214B42B4001329B1 /* CVMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C6D94214B42B4001329B1 /* CVMapVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		E00C6D7A214B4268001329B1 /* ToiletsNearMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToiletsNearMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00C6D7E214B4268001329B1 /* ToiletsNearMeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToiletsNearMeUITests.m; sourceTree = "<group>"; };
 		E00C6D80214B4268001329B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00C6D8D214B42AA001329B1 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E00C6D8E214B42AA001329B1 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E00C6D93214B42B4001329B1 /* CVMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVMapVC.h; sourceTree = "<group>"; };
+		E00C6D94214B42B4001329B1 /* CVMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVMapVC.m; sourceTree = "<group>"; };
+		E00C6D97214B42BD001329B1 /* pcher.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pcher.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,8 @@
 		E00C6D59214B4267001329B1 /* ToiletsNearMe */ = {
 			isa = PBXGroup;
 			children = (
+				E00C6D90214B42B4001329B1 /* ViewController */,
+				E00C6D8C214B42AA001329B1 /* Base */,
 				E00C6D5A214B4267001329B1 /* AppDelegate.h */,
 				E00C6D5B214B4267001329B1 /* AppDelegate.m */,
 				E00C6D5D214B4267001329B1 /* ViewController.h */,
@@ -117,6 +126,7 @@
 		E00C6D72214B4268001329B1 /* ToiletsNearMeTests */ = {
 			isa = PBXGroup;
 			children = (
+				E00C6D97214B42BD001329B1 /* pcher.pch */,
 				E00C6D73214B4268001329B1 /* ToiletsNearMeTests.m */,
 				E00C6D75214B4268001329B1 /* Info.plist */,
 			);
@@ -130,6 +140,48 @@
 				E00C6D80214B4268001329B1 /* Info.plist */,
 			);
 			path = ToiletsNearMeUITests;
+			sourceTree = "<group>";
+		};
+		E00C6D8C214B42AA001329B1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E00C6D8D214B42AA001329B1 /* BaseViewController.h */,
+				E00C6D8E214B42AA001329B1 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E00C6D90214B42B4001329B1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E00C6D91214B42B4001329B1 /* Map */,
+				E00C6D95214B42B4001329B1 /* Register */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E00C6D91214B42B4001329B1 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E00C6D92214B42B4001329B1 /* c */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		E00C6D92214B42B4001329B1 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				E00C6D93214B42B4001329B1 /* CVMapVC.h */,
+				E00C6D94214B42B4001329B1 /* CVMapVC.m */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		E00C6D95214B42B4001329B1 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +315,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E00C6D5F214B4267001329B1 /* ViewController.m in Sources */,
+				E00C6D8F214B42AA001329B1 /* BaseViewController.m in Sources */,
 				E00C6D6A214B4268001329B1 /* main.m in Sources */,
+				E00C6D96214B42B4001329B1 /* CVMapVC.m in Sources */,
 				E00C6D5C214B4267001329B1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,12 +489,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47G5KQT5EK;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ToiletsNearMe/pcher.pch";
 				INFOPLIST_FILE = ToiletsNearMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cv.ToiletsNearMe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,12 +508,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47G5KQT5EK;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ToiletsNearMe/pcher.pch";
 				INFOPLIST_FILE = ToiletsNearMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cv.ToiletsNearMe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
