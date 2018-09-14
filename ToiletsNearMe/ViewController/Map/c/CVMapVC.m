@@ -11,6 +11,7 @@
 #import <AMapSearchKit/AMapSearchKit.h>
 #import <AMapFoundationKit/AMapFoundationKit.h>
 #import <Masonry.h>
+#import "CVRegisterLoginVC.h"
 
 @interface CVMapVC ()<MAMapViewDelegate,AMapSearchDelegate>
 @property(strong,nonatomic) MAMapView *mapView;
@@ -24,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view addSubview:self.mapView];
-    
+    [self presentViewController:[[CVRegisterLoginVC alloc]init] animated:YES completion:nil];
 }
 
 - (void)mapView:(MAMapView *)mapView didUpdateUserLocation:(MAUserLocation *)userLocation updatingLocation:(BOOL)updatingLocation {

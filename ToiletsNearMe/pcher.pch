@@ -1,0 +1,35 @@
+//
+//  pcher.pch
+//  ToiletNearMe
+//
+//  Created by Hanrun on 2018/9/13.
+//  Copyright © 2018年 Carvin. All rights reserved.
+//
+
+#ifndef pcher_pch
+#define pcher_pch
+
+//第三方key
+#define Mapkey @"4f377f2dfcc89c92c13b1d0a22ea4c5e"
+
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r,g,b) RGBA(r,g,b,1.0f)
+#define BaseColor [UIColor colorWithRed:243/255.0 green:123/255.0 blue:12/255.0 alpha:1]//RGB(153,153,153)
+
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_IPHONE4s (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 480.0f)
+#define IS_IPHONE5 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 568.0f)
+#define IS_IPHONE6PLUS (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 736.0f)
+#define IS_IPHONE6 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 667.0f)
+#define IS_IPHONEX (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 812.0f)
+
+#define KSCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define KSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define WIDTH  self.view.frame.size.width
+#define HEIGHT  self.view.frame.size.height
+#define SafeAreaTopHeight (KSCREEN_HEIGHT == 812.0 ? 88 : 64) ///适配x
+#define SCR_WIDTH KSCREEN_WIDTH
+#define SCR_HEIGHT KSCREEN_HEIGHT
+
+
+#endif /* pcher_pch */
