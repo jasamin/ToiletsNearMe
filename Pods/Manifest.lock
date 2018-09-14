@@ -1,4 +1,12 @@
 PODS:
+  - AMap3DMap (6.3.1):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.5.3)
+  - AMapNavi (6.2.0):
+    - AMap3DMap (~> 6.2)
+    - AMapFoundation (~> 1.5)
+  - AMapSearch (6.1.1):
+    - AMapFoundation (~> 1.4)
   - BmobSDK (2.3.1)
   - HYBMasonryAutoCellHeight_SS (2.0.2):
     - Masonry
@@ -26,6 +34,8 @@ PODS:
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
+  - AMapNavi (~> 6.2.0)
+  - AMapSearch (~> 6.1.1)
   - BmobSDK (~> 2.3.1)
   - HYBMasonryAutoCellHeight_SS (~> 2.0.2)
   - Masonry (~> 1.1.0)
@@ -38,6 +48,10 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AMap3DMap
+    - AMapFoundation
+    - AMapNavi
+    - AMapSearch
     - BmobSDK
     - HYBMasonryAutoCellHeight_SS
     - Masonry
@@ -46,6 +60,10 @@ SPEC REPOS:
     - YYKit
 
 SPEC CHECKSUMS:
+  AMap3DMap: 7e1b2f2a1628a584f085d7f158d7c9835837e8c2
+  AMapFoundation: 58f883c80754c659cf626deb3150936bfe8f1772
+  AMapNavi: bb43c7ac8f85197c562e89b39af22e7c85182d95
+  AMapSearch: 3dcbf85c403a2a0fe0eda5318caabc272b31f5e1
   BmobSDK: e0f9e4b451233a80af63a8ae4f2d239474bf567b
   HYBMasonryAutoCellHeight_SS: 6a523d476243268086e2888198c95638d6ad37b7
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -53,6 +71,6 @@ SPEC CHECKSUMS:
   MOBFoundation: 2a885bc73199d93386139dc4e9ce9ded04ef0e53
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 288dba90db088de805fd21f4ac81b6e453d0e2d9
+PODFILE CHECKSUM: fc64fe7c4250517b86f0a5c22476766136ad3ce1
 
 COCOAPODS: 1.5.3
