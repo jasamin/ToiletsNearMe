@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E00C6D5C214B4267001329B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C6D5B214B4267001329B1 /* AppDelegate.m */; };
+		E00C6D5F214B4267001329B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C6D5E214B4267001329B1 /* ViewController.m */; };
+		E00C6D62214B4267001329B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00C6D60214B4267001329B1 /* Main.storyboard */; };
+		E00C6D64214B4268001329B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00C6D63214B4268001329B1 /* Assets.xcassets */; };
+		E00C6D67214B4268001329B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00C6D65214B4268001329B1 /* LaunchScreen.storyboard */; };
+		E00C6D6A214B4268001329B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C6D69214B4268001329B1 /* main.m */; };
+		E00C6D74214B4268001329B1 /* ToiletsNearMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C6D73214B4268001329B1 /* ToiletsNearMeTests.m */; };
+		E00C6D7F214B4268001329B1 /* ToiletsNearMeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C6D7E214B4268001329B1 /* ToiletsNearMeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E00C6D70214B4268001329B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00C6D4F214B4266001329B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00C6D56214B4267001329B1;
+			remoteInfo = ToiletsNearMe;
+		};
+		E00C6D7B214B4268001329B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00C6D4F214B4266001329B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00C6D56214B4267001329B1;
+			remoteInfo = ToiletsNearMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E00C6D57214B4267001329B1 /* ToiletsNearMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToiletsNearMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00C6D5A214B4267001329B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E00C6D5B214B4267001329B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E00C6D5D214B4267001329B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E00C6D5E214B4267001329B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E00C6D61214B4267001329B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E00C6D63214B4268001329B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E00C6D66214B4268001329B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E00C6D68214B4268001329B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00C6D69214B4268001329B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E00C6D6F214B4268001329B1 /* ToiletsNearMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToiletsNearMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00C6D73214B4268001329B1 /* ToiletsNearMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToiletsNearMeTests.m; sourceTree = "<group>"; };
+		E00C6D75214B4268001329B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00C6D7A214B4268001329B1 /* ToiletsNearMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToiletsNearMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00C6D7E214B4268001329B1 /* ToiletsNearMeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToiletsNearMeUITests.m; sourceTree = "<group>"; };
+		E00C6D80214B4268001329B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E00C6D54214B4267001329B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00C6D6C214B4268001329B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00C6D77214B4268001329B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E00C6D4E214B4266001329B1 = {
+			isa = PBXGroup;
+			children = (
+				E00C6D59214B4267001329B1 /* ToiletsNearMe */,
+				E00C6D72214B4268001329B1 /* ToiletsNearMeTests */,
+				E00C6D7D214B4268001329B1 /* ToiletsNearMeUITests */,
+				E00C6D58214B4267001329B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E00C6D58214B4267001329B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E00C6D57214B4267001329B1 /* ToiletsNearMe.app */,
+				E00C6D6F214B4268001329B1 /* ToiletsNearMeTests.xctest */,
+				E00C6D7A214B4268001329B1 /* ToiletsNearMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E00C6D59214B4267001329B1 /* ToiletsNearMe */ = {
+			isa = PBXGroup;
+			children = (
+				E00C6D5A214B4267001329B1 /* AppDelegate.h */,
+				E00C6D5B214B4267001329B1 /* AppDelegate.m */,
+				E00C6D5D214B4267001329B1 /* ViewController.h */,
+				E00C6D5E214B4267001329B1 /* ViewController.m */,
+				E00C6D60214B4267001329B1 /* Main.storyboard */,
+				E00C6D63214B4268001329B1 /* Assets.xcassets */,
+				E00C6D65214B4268001329B1 /* LaunchScreen.storyboard */,
+				E00C6D68214B4268001329B1 /* Info.plist */,
+				E00C6D69214B4268001329B1 /* main.m */,
+			);
+			path = ToiletsNearMe;
+			sourceTree = "<group>";
+		};
+		E00C6D72214B4268001329B1 /* ToiletsNearMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E00C6D73214B4268001329B1 /* ToiletsNearMeTests.m */,
+				E00C6D75214B4268001329B1 /* Info.plist */,
+			);
+			path = ToiletsNearMeTests;
+			sourceTree = "<group>";
+		};
+		E00C6D7D214B4268001329B1 /* ToiletsNearMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E00C6D7E214B4268001329B1 /* ToiletsNearMeUITests.m */,
+				E00C6D80214B4268001329B1 /* Info.plist */,
+			);
+			path = ToiletsNearMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00C6D56214B4267001329B1 /* ToiletsNearMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00C6D83214B4268001329B1 /* Build configuration list for PBXNativeTarget "ToiletsNearMe" */;
+			buildPhases = (
+				E00C6D53214B4267001329B1 /* Sources */,
+				E00C6D54214B4267001329B1 /* Frameworks */,
+				E00C6D55214B4267001329B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToiletsNearMe;
+			productName = ToiletsNearMe;
+			productReference = E00C6D57214B4267001329B1 /* ToiletsNearMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E00C6D6E214B4268001329B1 /* ToiletsNearMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00C6D86214B4268001329B1 /* Build configuration list for PBXNativeTarget "ToiletsNearMeTests" */;
+			buildPhases = (
+				E00C6D6B214B4268001329B1 /* Sources */,
+				E00C6D6C214B4268001329B1 /* Frameworks */,
+				E00C6D6D214B4268001329B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E00C6D71214B4268001329B1 /* PBXTargetDependency */,
+			);
+			name = ToiletsNearMeTests;
+			productName = ToiletsNearMeTests;
+			productReference = E00C6D6F214B4268001329B1 /* ToiletsNearMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E00C6D79214B4268001329B1 /* ToiletsNearMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00C6D89214B4268001329B1 /* Build configuration list for PBXNativeTarget "ToiletsNearMeUITests" */;
+			buildPhases = (
+				E00C6D76214B4268001329B1 /* Sources */,
+				E00C6D77214B4268001329B1 /* Frameworks */,
+				E00C6D78214B4268001329B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E00C6D7C214B4268001329B1 /* PBXTargetDependency */,
+			);
+			name = ToiletsNearMeUITests;
+			productName = ToiletsNearMeUITests;
+			productReference = E00C6D7A214B4268001329B1 /* ToiletsNearMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00C6D4F214B4266001329B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Carvin;
+				TargetAttributes = {
+					E00C6D56214B4267001329B1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E00C6D6E214B4268001329B1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E00C6D56214B4267001329B1;
+					};
+					E00C6D79214B4268001329B1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E00C6D56214B4267001329B1;
+					};
+				};
+			};
+			buildConfigurationList = E00C6D52214B4266001329B1 /* Build configuration list for PBXProject "ToiletsNearMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E00C6D4E214B4266001329B1;
+			productRefGroup = E00C6D58214B4267001329B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00C6D56214B4267001329B1 /* ToiletsNearMe */,
+				E00C6D6E214B4268001329B1 /* ToiletsNearMeTests */,
+				E00C6D79214B4268001329B1 /* ToiletsNearMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E00C6D55214B4267001329B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00C6D67214B4268001329B1 /* LaunchScreen.storyboard in Resources */,
+				E00C6D64214B4268001329B1 /* Assets.xcassets in Resources */,
+				E00C6D62214B4267001329B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00C6D6D214B4268001329B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00C6D78214B4268001329B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E00C6D53214B4267001329B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00C6D5F214B4267001329B1 /* ViewController.m in Sources */,
+				E00C6D6A214B4268001329B1 /* main.m in Sources */,
+				E00C6D5C214B4267001329B1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00C6D6B214B4268001329B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00C6D74214B4268001329B1 /* ToiletsNearMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00C6D76214B4268001329B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00C6D7F214B4268001329B1 /* ToiletsNearMeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E00C6D71214B4268001329B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00C6D56214B4267001329B1 /* ToiletsNearMe */;
+			targetProxy = E00C6D70214B4268001329B1 /* PBXContainerItemProxy */;
+		};
+		E00C6D7C214B4268001329B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00C6D56214B4267001329B1 /* ToiletsNearMe */;
+			targetProxy = E00C6D7B214B4268001329B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E00C6D60214B4267001329B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00C6D61214B4267001329B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E00C6D65214B4268001329B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00C6D66214B4268001329B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E00C6D81214B4268001329B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E00C6D82214B4268001329B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E00C6D84214B4268001329B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47G5KQT5EK;
+				INFOPLIST_FILE = ToiletsNearMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cv.ToiletsNearMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E00C6D85214B4268001329B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47G5KQT5EK;
+				INFOPLIST_FILE = ToiletsNearMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cv.ToiletsNearMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E00C6D87214B4268001329B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47G5KQT5EK;
+				INFOPLIST_FILE = ToiletsNearMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cv.ToiletsNearMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToiletsNearMe.app/ToiletsNearMe";
+			};
+			name = Debug;
+		};
+		E00C6D88214B4268001329B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47G5KQT5EK;
+				INFOPLIST_FILE = ToiletsNearMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cv.ToiletsNearMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToiletsNearMe.app/ToiletsNearMe";
+			};
+			name = Release;
+		};
+		E00C6D8A214B4268001329B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47G5KQT5EK;
+				INFOPLIST_FILE = ToiletsNearMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cv.ToiletsNearMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToiletsNearMe;
+			};
+			name = Debug;
+		};
+		E00C6D8B214B4268001329B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47G5KQT5EK;
+				INFOPLIST_FILE = ToiletsNearMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cv.ToiletsNearMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToiletsNearMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E00C6D52214B4266001329B1 /* Build configuration list for PBXProject "ToiletsNearMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00C6D81214B4268001329B1 /* Debug */,
+				E00C6D82214B4268001329B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00C6D83214B4268001329B1 /* Build configuration list for PBXNativeTarget "ToiletsNearMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00C6D84214B4268001329B1 /* Debug */,
+				E00C6D85214B4268001329B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00C6D86214B4268001329B1 /* Build configuration list for PBXNativeTarget "ToiletsNearMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00C6D87214B4268001329B1 /* Debug */,
+				E00C6D88214B4268001329B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00C6D89214B4268001329B1 /* Build configuration list for PBXNativeTarget "ToiletsNearMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00C6D8A214B4268001329B1 /* Debug */,
+				E00C6D8B214B4268001329B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00C6D4F214B4266001329B1 /* Project object */;
+}
